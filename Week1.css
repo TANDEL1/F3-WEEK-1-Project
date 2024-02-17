@@ -1,0 +1,158 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #151523;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    /* text-align: center; */
+    margin: 20px;
+    font-size: 3rem;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.set-time
+{
+    border-radius: 10px;
+    width: 40%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #34344A;
+}
+
+form{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.5rem;
+    margin: 15px;
+}
+
+h4{
+    color: white;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+.colon
+{
+    font-size: 2rem;
+}
+
+form > .inp
+{
+    width: 5rem;
+    height: 3rem;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    margin: 0px 20px;
+    color: yellow;
+    text-align: center;
+}
+
+form > .inp::placeholder{
+    color: rgb(191, 176, 236);
+    text-decoration: underline;
+    text-align: center;
+}
+
+button{
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: transparent;
+    background-color: yellow;
+    border: none;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h2
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(74, 74, 74);
+    padding: 2px 20px;
+    border-radius: 50px;
+    margin: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px;
+
+}
+
+.rem-time
+{
+    border-radius: 10px;
+    width: 40%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #34344A;
+    margin-bottom: 10px;
+}
+
+.rem-time > p
+{
+    color: rgb(4, 255, 0);
+}
+
+p{
+    font-size: 2rem;
+    margin: 10px 20px;
+}
+.blurrr{
+    color: rgb(0, 187, 255);
+}
+
+.del
+{
+    margin: 0px 10px;
+    background-color: red;
+}
+
+.hide{
+    display: none;
+}
+
+span{
+    font-size: 2rem;
+}
+
+.bgg
+{
+    background-color: rgb(242, 255, 0);
+}
+
+
+.reddd
+{
+    color: red;
+    font-weight: bolder;
+}
